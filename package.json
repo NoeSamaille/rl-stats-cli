@@ -1,0 +1,38 @@
+{
+  "name": "rl-stats",
+  "version": "1.0.0",
+  "description": "Simple CLI for Rocket League stats",
+  "main": "index.js",
+  "bin": {
+    "rls": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoeSamaille/rl-stats-cli.git"
+  },
+  "keywords": [
+    "Rocket League",
+    "Rocket",
+    "League",
+    "RL",
+    "Rank",
+    "Stats",
+    "Scrapping",
+    "puppeteer",
+    "CLI"
+  ],
+  "author": "Noé Samaille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoeSamaille/rl-stats-cli/issues"
+  },
+  "homepage": "https://github.com/NoeSamaille/rl-stats-cli#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "commander": "^9.1.0",
+    "puppeteer": "^13.5.1"
+  }
+}
